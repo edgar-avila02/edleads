@@ -6,8 +6,8 @@ const PrecosPage = () => {
     {
       name: "Plano Mensal Fixo",
       description: "Ideal para empresas que querem escalar de forma previsível.",
-      price: "R$ 1.600",
-      period: "/ mês",
+      price: "Sob consulta",
+      period: "",
       popular: true,
       tag: "Mais Vantajoso",
       features: [
@@ -22,8 +22,8 @@ const PrecosPage = () => {
     {
       name: "Plano por Contato",
       description: "Ideal para quem quer testar o serviço e começar aos poucos.",
-      price: "R$ 30",
-      period: "/ lead recebido",
+      price: "Sob consulta",
+      period: "",
       popular: false,
       tag: "Mais Flexível",
       features: [
@@ -127,7 +127,7 @@ const PrecosPage = () => {
                 <Info className="w-5 h-5 text-corporate-blueAccent" /> 
                 Como é feita a contagem dos leads no plano por contato?
               </h4>
-              <p className="text-gray-600">Nós instalamos um rastreador no botão do seu WhatsApp que contabiliza exatamente quantas pessoas clicaram e iniciaram uma conversa com a sua empresa vindo dos nossos anúncios.</p>
+              <p className="text-gray-600">Nós instalamos um rastreador no botão do seu WhatsApp que contabiliza exatamente quantas pessoas clicaram e iniciaram uma conversa com a sua empresa.</p>
             </div>
             
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
@@ -143,7 +143,7 @@ const PrecosPage = () => {
                 <Info className="w-5 h-5 text-corporate-blueAccent" /> 
                 Quais formas de pagamento são aceitas?
               </h4>
-              <p className="text-gray-600">O Plano Mensal Fixo é cobrado via boleto, PIX ou cartão de crédito no início do ciclo. O Plano por Contato é apurado ao final de cada quinzena e faturado via PIX ou boleto.</p>
+              <p className="text-gray-600">O Plano Mensal Fixo ou por Contato é cobrado via boleto ou PIX no início do ciclo, sendo cobrado todo mês no mesmo dia em que foi iniciado o serviço.</p>
             </div>
           </div>
         </div>

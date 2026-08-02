@@ -33,8 +33,7 @@ const Pricing = () => {
           >
             <h3 className="text-2xl font-bold text-corporate-dark mb-2">Plano mensal fixo</h3>
             <div className="flex items-baseline gap-2 mb-8 border-b border-gray-100 pb-8">
-              <span className="text-5xl font-extrabold text-corporate-dark tracking-tight">R$ 1.600</span>
-              <span className="text-gray-500 font-medium">/ mês</span>
+              <span className="text-4xl lg:text-5xl font-extrabold text-corporate-dark tracking-tight">Sob consulta</span>
             </div>
             
             <ul className="space-y-5 mb-10">
@@ -82,8 +81,7 @@ const Pricing = () => {
             
             <h3 className="text-2xl font-bold text-white mb-2 mt-4">Plano por contato</h3>
             <div className="flex items-baseline gap-2 mb-8 border-b border-white/10 pb-8">
-              <span className="text-5xl font-extrabold text-white tracking-tight">R$ 30</span>
-              <span className="text-gray-400 font-medium">/ lead recebido</span>
+              <span className="text-4xl lg:text-5xl font-extrabold text-white tracking-tight">Sob consulta</span>
             </div>
             
             <ul className="space-y-5 mb-10">
