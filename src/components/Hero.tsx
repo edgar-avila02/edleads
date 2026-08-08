@@ -10,6 +10,7 @@ const Hero = () => {
         loop
         muted
         playsInline
+        {...({ fetchPriority: "high" } as any)}
         className="absolute inset-0 w-full h-full object-cover z-0"
         poster="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"
       >

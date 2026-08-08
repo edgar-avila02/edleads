@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Qual a diferença entre o plano mensal e por contato?",
-    answer: "No plano mensal, você paga um valor fixo de serviço e não há limite de leads (o que vier é seu, sem custo extra nosso). No plano por contato, você não paga mensalidade, mas sim um valor fixo (R$ 30) para cada lead qualificado que entrar no seu WhatsApp."
+    answer: "No plano mensal, você paga um valor fixo de serviço e não há limite de leads (o que vier é seu, sem custo extra nosso). No plano por contato, você não paga mensalidade, mas sim um valor fixo para cada lead qualificado que entrar no seu WhatsApp."
   },
   {
     question: "Preciso ter site próprio para começar?",
