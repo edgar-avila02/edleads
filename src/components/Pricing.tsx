@@ -69,9 +69,9 @@ const Pricing = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="glass-panel-dark rounded-3xl p-10 lg:p-12 shadow-2xl relative transform md:-translate-y-4 border border-corporate-blueAccent/30 group hover:border-corporate-blueAccent transition-colors duration-500 overflow-hidden"
+            className="glass-panel-dark rounded-3xl p-10 lg:p-12 shadow-2xl relative transform md:-translate-y-4 border border-corporate-blueAccent/30 group hover:border-corporate-blueAccent transition-colors duration-500"
           >
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-corporate-blueAccent to-whatsapp"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-corporate-blueAccent to-whatsapp rounded-t-3xl"></div>
             
             <div className="absolute top-0 right-8 transform -translate-y-1/2">
               <span className="bg-gradient-to-r from-corporate-blueAccent to-blue-400 text-white text-xs font-bold tracking-widest uppercase py-2 px-6 rounded-full shadow-lg">
