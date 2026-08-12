@@ -9,10 +9,12 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-corporate-dark rounded-xl flex items-center justify-center border border-white/10 shadow-lg">
-                <span className="text-white font-extrabold text-xl tracking-tight">Ed</span>
-              </div>
-              <span className="font-extrabold text-2xl text-white tracking-tight">Edleads<span className="text-corporate-blueAccent">.</span></span>
+              <img 
+                src="/Logo Edleads.jpeg" 
+                alt="Edleads" 
+                className="h-[35px] sm:h-[40px] md:h-[45px] w-auto object-contain" 
+                onError={(e) => { e.currentTarget.src = '/Logo Edleads.jpeg'; }}
+              />
             </div>
             <p className="text-gray-400 max-w-sm font-light leading-relaxed">
               Especialistas em gerar vendas para negócios locais em São Paulo via Google. Sem complicações, direto no seu WhatsApp.
@@ -23,8 +25,8 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-white mb-6 tracking-wider text-sm uppercase">Links rápidos</h4>
             <ul className="space-y-4">
-              <li><Link to="/como-funciona" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Como funciona</Link></li>
-              <li><Link to="/servicos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Serviços</Link></li>
+              <li><Link to="/sobre-nos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Sobre nós</Link></li>
+              <li><Link to="/servicos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Serviço</Link></li>
               <li><Link to="/depoimentos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Depoimentos</Link></li>
               <li><Link to="/precos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Preços</Link></li>
               <li><Link to="/termos" className="text-gray-400 hover:text-corporate-blueAccent transition-colors font-light">Termos de uso</Link></li>

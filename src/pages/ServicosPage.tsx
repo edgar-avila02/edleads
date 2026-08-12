@@ -26,7 +26,7 @@ const ServicosPage = () => {
       {/* Hero */}
       <section className="bg-gray-50 py-24 px-4 sm:px-6 lg:px-8 border-b border-gray-100">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">O Fim das Ligações <br className="hidden md:block"/><span className="text-corporate-blueAccent">Frias e Desqualificadas</span></h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">O fim das ligações <br className="hidden md:block"/><span className="text-corporate-blueAccent">frias e desqualificadas</span></h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Nós conectamos quem tem o problema com quem tem a solução, usando os 3 pilares da conversão em alta velocidade.
           </p>

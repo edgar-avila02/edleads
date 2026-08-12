@@ -34,7 +34,7 @@ const Services = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
-              Serviços prestados<span className="text-corporate-blueAccent">.</span>
+              Serviço<span className="text-corporate-blueAccent">.</span>
             </h2>
             <p className="text-xl text-gray-400 font-light">
               Nosso fluxo focado 100% na geração de contatos reais e imediatos.

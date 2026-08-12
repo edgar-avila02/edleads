@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import { lazy, Suspense } from 'react';
 
-const ComoFuncionaPage = lazy(() => import('./pages/ComoFuncionaPage'));
+const SobreNosPage = lazy(() => import('./pages/SobreNosPage'));
 const ServicosPage = lazy(() => import('./pages/ServicosPage'));
 const DepoimentosPage = lazy(() => import('./pages/DepoimentosPage'));
 const PrecosPage = lazy(() => import('./pages/PrecosPage'));
@@ -22,7 +22,7 @@ function App() {
         <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-corporate-blueAccent">Carregando...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/como-funciona" element={<ComoFuncionaPage />} />
+            <Route path="/sobre-nos" element={<SobreNosPage />} />
             <Route path="/servicos" element={<ServicosPage />} />
             <Route path="/depoimentos" element={<DepoimentosPage />} />
             <Route path="/precos" element={<PrecosPage />} />
