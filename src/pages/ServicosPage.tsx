@@ -24,7 +24,7 @@ const ServicosPage = () => {
   return (
     <main className="pt-20">
       {/* Hero */}
-      <section className="bg-gray-50 py-24 px-4 sm:px-6 lg:px-8 border-b border-gray-100">
+      <section className="bg-white pt-24 pb-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">O fim das ligações <br className="hidden md:block"/><span className="text-corporate-blueAccent">frias e desqualificadas</span></h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -34,16 +34,16 @@ const ServicosPage = () => {
       </section>
 
       {/* Pilares */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="pt-8 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="grid md:grid-cols-3 gap-8">
             {pillars.map((pillar, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:shadow-lg transition-all">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm">
+              <div key={index} className="bg-corporate-dark p-10 rounded-3xl border border-white/10 hover:shadow-[0_10px_40px_rgba(37,99,235,0.15)] transition-all transform hover:-translate-y-2 group">
+                <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center mb-6 border border-white/10 shadow-inner group-hover:scale-110 transition-transform duration-500">
                   {pillar.icon}
                 </div>
-                <h2 className="text-2xl font-bold text-corporate-dark mb-4">{pillar.title}</h2>
-                <p className="text-lg text-gray-600">{pillar.description}</p>
+                <h2 className="text-2xl font-bold text-white mb-4">{pillar.title}</h2>
+                <p className="text-lg text-gray-300 font-light leading-relaxed">{pillar.description}</p>
               </div>
             ))}
           </div>
