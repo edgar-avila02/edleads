@@ -1,6 +1,7 @@
 import { MessageCircle, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../Logo Edleads.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-3 group cursor-pointer">
             <img 
-              src="/Logo Edleads.jpeg" 
+              src={logo} 
               alt="Edleads" 
               className="h-[35px] sm:h-[40px] md:h-[45px] lg:h-[50px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />

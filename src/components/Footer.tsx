@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../Logo Edleads.jpeg';
 
 const Footer = () => {
   return (
@@ -10,10 +11,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img 
-                src="/Logo Edleads.jpeg" 
+                src={logo} 
                 alt="Edleads" 
-                className="h-[35px] sm:h-[40px] md:h-[45px] w-auto object-contain" 
-                onError={(e) => { e.currentTarget.src = '/Logo Edleads.jpeg'; }}
+                className="h-[35px] sm:h-[40px] md:h-[45px] w-auto object-contain"
               />
             </div>
             <p className="text-gray-400 max-w-sm font-light leading-relaxed">
