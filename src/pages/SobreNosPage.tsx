@@ -3,9 +3,9 @@ import { Target, TrendingUp, Search } from 'lucide-react';
 
 const SobreNosPage = () => {
   return (
-    <div className="pt-24 pb-16 min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 relative overflow-hidden bg-corporate-dark text-white">
+      <section className="pt-32 pb-20 relative overflow-hidden bg-corporate-dark text-white">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-[600px] bg-corporate-blueAccent/20 blur-[150px] rounded-full pointer-events-none opacity-40"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <motion.h1 
