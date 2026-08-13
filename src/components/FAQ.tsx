@@ -5,11 +5,11 @@ import { useState } from 'react';
 const faqs = [
   {
     question: "Como os leads chegam até o meu WhatsApp?",
-    answer: "Nós focamos no Google. Quando um cliente pesquisa pelo seu serviço na sua região, ele encontra suas informações, clica, e é direcionado automaticamente para uma conversa no seu número de WhatsApp."
+    answer: "Quando um cliente pesquisa pelo seu serviço em São Paulo, ele encontra o seu contato, clica, e é direcionado automaticamente para uma conversa no seu número de WhatsApp."
   },
   {
     question: "Como vocês garantem que os leads são da região de São Paulo?",
-    answer: "Utilizamos a segmentação avançada de geolocalização do Google. Focamos nossa estratégia para que você apareça apenas para pessoas que estão fisicamente no raio de atuação que você definir (municípios específicos)."
+    answer: "Utilizamos a segmentação avançada de geolocalização do Google. Focamos nossa estratégia só no estado de São Paulo para que você apareça apenas para pessoas que partem do próprio estado."
   },
   {
     question: "Qual a diferença entre o plano mensal e por contato?",
@@ -22,7 +22,7 @@ const faqs = [
 ];
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="py-32 bg-white relative">
