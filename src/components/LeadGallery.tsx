@@ -5,12 +5,15 @@ import img1 from '../../Solicitação dos leads/1.png';
 import img2 from '../../Solicitação dos leads/2.png';
 import img3 from '../../Solicitação dos leads/3.png';
 import img4 from '../../Solicitação dos leads/4.png';
-import img5 from '../../Solicitação dos leads/5.png';
 import img6 from '../../Solicitação dos leads/6.png';
+import img7 from '../../Solicitação dos leads/7.png';
+import img8 from '../../Solicitação dos leads/8.png';
+import img9 from '../../Solicitação dos leads/9.png';
+import img10 from '../../Solicitação dos leads/10.png';
 
 const LeadGallery = () => {
-  // Array com os 6 prints reais
-  const leads = [img1, img2, img3, img4, img5, img6];
+  // Array com os prints reais atualizados conforme solicitado
+  const leads = [img10, img1, img2, img3, img7, img9, img6, img8, img4];
 
   return (
     <section className="py-24 bg-corporate-light relative overflow-hidden">

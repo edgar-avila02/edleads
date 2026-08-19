@@ -11,7 +11,7 @@ const DepoimentosPage = () => {
     {
       name: "Roberto",
       role: "Fretamento e Vans - Guarulhos, SP",
-      content: "O pessoal foca muito em quem está perto. Os clientes já chegam sabendo o que querem, só me perguntam os horários disponíveis e fecham a locação."
+      content: "O pessoal foca muito em quem está na região de São Paulo. Os clientes já chegam sabendo o que querem, só me perguntam os horários disponíveis e fecham a locação."
     },
     {
       name: "Carlos",
