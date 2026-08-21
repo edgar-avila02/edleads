@@ -5,7 +5,7 @@ const highlights = [
   {
     icon: DollarSign,
     title: 'Custo por anúncio?',
-    description: 'Zero! não cobramos valor do anuncio',
+    description: 'Zero! não cobramos valor do anuncio.',
     accent: 'text-green-500',
     bg: 'bg-green-500/10',
     border: 'border-green-500/20',
