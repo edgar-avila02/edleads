@@ -29,7 +29,7 @@ const transportTestimonials = [
 ];
 
 const TestimonialCard = ({ testimonial }: { testimonial: any }) => (
-  <div className="bg-white p-10 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col h-full group hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-500 relative overflow-hidden">
+  <div className="bg-white/5 p-10 rounded-3xl border border-white/10 flex flex-col h-full group hover:shadow-[0_20px_40px_rgb(0,0,0,0.2)] hover:-translate-y-1 transition-all duration-500 relative overflow-hidden backdrop-blur-sm">
     {/* Subtle gradient corner */}
     <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-corporate-blueAccent/20 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
@@ -38,19 +38,19 @@ const TestimonialCard = ({ testimonial }: { testimonial: any }) => (
         <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400 drop-shadow-sm" />
       ))}
     </div>
-    <p className="text-gray-600 font-light text-lg italic mb-8 flex-grow leading-relaxed relative z-10">"{testimonial.text}"</p>
+    <p className="text-gray-300 font-light text-lg italic mb-8 flex-grow leading-relaxed relative z-10">"{testimonial.text}"</p>
     <div className="mt-auto relative z-10">
-        <h4 className="font-bold text-corporate-dark text-lg">{testimonial.name}</h4>
-      <p className="text-sm text-gray-500 font-medium">{testimonial.business}</p>
+        <h4 className="font-bold text-white text-lg">{testimonial.name}</h4>
+      <p className="text-sm text-gray-400 font-medium">{testimonial.business}</p>
     </div>
   </div>
 );
 
 const Testimonials = () => {
   return (
-    <section id="depoimentos" className="py-32 bg-white overflow-hidden relative">
+    <section id="depoimentos" className="py-32 bg-corporate-dark overflow-hidden relative">
       {/* Background decorations */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-corporate-light/50 to-transparent pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-corporate-darker/50 to-transparent pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
@@ -61,10 +61,10 @@ const Testimonials = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">
-              Resultados reais no segmento de serviços de transporte<span className="text-corporate-blueAccent">.</span>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-white">
+              Resultados reais no segmento de serviços de transporte
             </h2>
-            <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto">
+            <p className="text-xl text-gray-400 font-light max-w-3xl mx-auto">
               Veja o que dizem os nossos clientes que já estão lotando a agenda.
             </p>
           </motion.div>

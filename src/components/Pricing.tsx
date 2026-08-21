@@ -3,7 +3,7 @@ import { CheckCircle2, MessageCircle } from 'lucide-react';
 
 const Pricing = () => {
   return (
-    <section id="precos" className="py-32 bg-corporate-light relative">
+    <section id="precos" className="py-32 bg-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.div
@@ -12,8 +12,8 @@ const Pricing = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">
-              Escolha o modelo ideal para o seu negócio<span className="text-corporate-blueAccent">.</span>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-corporate-dark">
+              Escolha o modelo ideal para o seu negócio
             </h2>
             <p className="text-xl text-gray-600 font-light">
               Transparência total para você começar a receber leads hoje.

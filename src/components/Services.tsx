@@ -21,9 +21,9 @@ const features = [
 
 const Services = () => {
   return (
-    <section id="servicos" className="py-32 bg-corporate-darker text-white relative overflow-hidden">
+    <section id="servicos" className="py-32 bg-white text-corporate-dark relative overflow-hidden">
       {/* Decorative gradient */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[500px] bg-corporate-blueAccent/20 blur-[120px] rounded-full pointer-events-none opacity-50"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[500px] bg-corporate-blueAccent/5 blur-[120px] rounded-full pointer-events-none opacity-50"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-20">
@@ -34,9 +34,9 @@ const Services = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
-              Serviço<span className="text-corporate-blueAccent">.</span>
+              Serviço
             </h2>
-            <p className="text-xl text-gray-400 font-light">
+            <p className="text-xl text-gray-600 font-light">
               Nosso fluxo focado 100% na geração de contatos reais e imediatos.
             </p>
           </motion.div>
@@ -50,13 +50,13 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="glass-panel-dark rounded-3xl p-10 group hover:-translate-y-2 transition-all duration-500 text-center flex flex-col items-center hover:shadow-[0_20px_40px_rgba(37,99,235,0.1)] hover:border-corporate-blueAccent/30"
+              className="bg-white border border-gray-100 rounded-3xl p-10 group hover:-translate-y-2 transition-all duration-500 text-center flex flex-col items-center shadow-lg hover:shadow-[0_20px_40px_rgba(37,99,235,0.08)] hover:border-corporate-blueAccent/30"
             >
-              <div className="w-20 h-20 bg-corporate-dark rounded-2xl flex items-center justify-center mb-8 border border-white/5 shadow-inner group-hover:scale-110 transition-transform duration-500">
+              <div className="w-20 h-20 bg-corporate-light rounded-2xl flex items-center justify-center mb-8 border border-gray-200 group-hover:scale-110 transition-transform duration-500">
                 {feature.icon}
               </div>
               <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
-              <p className="text-gray-400 leading-relaxed font-light text-lg">
+              <p className="text-gray-600 leading-relaxed font-light text-lg">
                 {feature.description}
               </p>
             </motion.div>

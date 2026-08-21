@@ -33,7 +33,7 @@ const HowItWorks = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">
-              Como funciona o nosso serviço<span className="text-corporate-blueAccent">.</span>
+              Como funciona o nosso serviço
             </h2>
             <p className="text-xl text-gray-600 font-light">
               Um processo validado e focado em velocidade. O poder do Google direcionado diretamente ao seu WhatsApp.

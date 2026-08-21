@@ -32,7 +32,7 @@ const LeadGallery = () => {
               Resultados Comprovados
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-corporate-dark">
-              Leads chegando todos os dias<span className="text-corporate-blueAccent">.</span>
+              Leads chegando todos os dias
             </h2>
             <p className="text-xl text-gray-600 font-light">
               Veja o padrão das mensagens que nossos parceiros recebem diretamente no WhatsApp. Pessoas qualificadas buscando pelo serviço!

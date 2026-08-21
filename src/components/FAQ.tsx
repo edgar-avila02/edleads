@@ -25,7 +25,7 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="py-32 bg-white relative">
+    <section className="py-32 bg-corporate-light relative">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -36,8 +36,8 @@ const FAQ = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-extrabold text-corporate-dark mb-6 tracking-tight">
-              Perguntas frequentes<span className="text-corporate-blueAccent">.</span>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-corporate-dark">
+              Perguntas frequentes
             </h2>
             <p className="text-xl text-gray-600 font-light">
               Tire suas dúvidas e veja como é simples começar a receber leads.

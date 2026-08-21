@@ -18,7 +18,7 @@ const Header = () => {
               alt="Edleads" 
               className="h-[35px] sm:h-[40px] md:h-[45px] lg:h-[50px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
-            <span className="font-extrabold text-2xl text-white tracking-tight hidden sm:block">Edleads<span className="text-corporate-blueAccent">.</span></span>
+            <span className="font-extrabold text-2xl text-white tracking-tight hidden sm:block">Edleads</span>
           </Link>
 
           {/* Desktop Navigation */}
